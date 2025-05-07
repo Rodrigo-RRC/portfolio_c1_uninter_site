@@ -1,0 +1,9 @@
+# Ignorar arquivos do Windows
+desktop.ini
+Thumbs.db
+
+# Ignorar diretórios do sistema
+.DS_Store
+
+# Ignorar pastas do VS Code
+.vscode/

@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfólio - Rodrigo Ribeiro</title>
+    <link rel="stylesheet" href="css/estilo.css">
+    <style>
+        .cards-container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 30px;
+            margin: 40px auto;
+            max-width: 900px;
+        }
+
+        .card {
+            background-color: #fff;
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s ease;
+            width: 260px;
+            text-align: center;
+        }
+
+        .card:hover {
+            transform: scale(1.05);
+        }
+
+        .card a {
+            text-decoration: none;
+            color: #2c3e50;
+            font-size: 1.2rem;
+            font-weight: bold;
+            display: block;
+        }
+
+        header h1 {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 10px;
+        }
+
+        @media (max-width: 768px) {
+            .cards-container {
+                flex-direction: column;
+                align-items: center;
+            }
+
+            .card {
+                width: 80%;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="sobre.html">Sobre Mim</a>
+        <a href="formacao.html">Formação</a>
+        <a href="portfolio.html">Portfólio</a>
+        <a href="contato.html">Contato</a>
+    </nav>
+
+    <header>
+        <h1>🌐 Portfólio de Projetos</h1>
+    </header>
+
+    <section class="cards-container">
+        <div class="card">
+            <a href="https://rodrigo-rrc.github.io/Projetos_Java/" target="_blank">☕ Projetos Java</a>
+        </div>
+        <div class="card">
+            <a href="https://rodrigo-rrc.github.io/Projetos_BI/" target="_blank">📊 Projetos BI</a>
+        </div>
+        <div class="card">
+            <a href="https://rodrigo-rrc.github.io/Projetos_IA/" target="_blank">🧠 Projetos IA</a>
+        </div>
+    </section>
+
+</body>
+
+</html>
