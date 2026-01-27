@@ -41,4 +41,38 @@ Curso: Tecnologia em Ciência de Dados – UNINTER
 
 > Este portfólio foi pensado para ser simples, limpo e funcional — com navegação clara e estrutura bem organizada. A entrega inclui o código fonte versionado no GitHub e a publicação funcional via GitHub Pages.
 
+1️⃣ model_card_google_style.md
+
+# Model Card
+
+## Model Details
+- **Model Name:** 
+- **Version:** 
+- **Model Type:** Supervised / Unsupervised / LLM
+- **Owner:** 
+- **Last Update:** 
+
+## Intended Use
+Describe the intended users, domains, and valid use cases.
+Explicitly list non-intended or forbidden uses.
+
+## Training Data
+High-level description of datasets, sources, time range and preprocessing.
+No sensitive raw data should be disclosed.
+
+## Evaluation Metrics
+Metrics used to evaluate performance (accuracy, F1, AUC, etc.).
+Include evaluation setup.
+
+## Ethical Considerations
+Potential biases, fairness risks, and mitigation strategies.
+
+## Limitations
+Known weaknesses, edge cases, and failure modes.
+
+## References
+Links to papers, datasets, or related documentation.
+
+
+
 
