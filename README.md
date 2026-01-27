@@ -41,38 +41,93 @@ Curso: Tecnologia em Ciência de Dados – UNINTER
 
 > Este portfólio foi pensado para ser simples, limpo e funcional — com navegação clara e estrutura bem organizada. A entrega inclui o código fonte versionado no GitHub e a publicação funcional via GitHub Pages.
 
-1️⃣ model_card_google_style.md
+---
+standard: "Dataprev Model Card"
+standard_version: "1.0"
 
-# Model Card
+document_id: "MC-DATAPREV-0001"
+document_version: "1.0"
+status: "draft"
 
-## Model Details
-- **Model Name:** 
-- **Version:** 
-- **Model Type:** Supervised / Unsupervised / LLM
-- **Owner:** 
-- **Last Update:** 
+created_at: "2026-01-27"
+last_updated_at: "2026-01-27"
 
-## Intended Use
-Describe the intended users, domains, and valid use cases.
-Explicitly list non-intended or forbidden uses.
+source_format: "md"
+normalized: false
+---
 
-## Training Data
-High-level description of datasets, sources, time range and preprocessing.
-No sensitive raw data should be disclosed.
+# Model Card – Padrão Dataprev
 
-## Evaluation Metrics
-Metrics used to evaluate performance (accuracy, F1, AUC, etc.).
-Include evaluation setup.
+## 1. Informações Essenciais e Uso Pretendido
 
-## Ethical Considerations
-Potential biases, fairness risks, and mitigation strategies.
+| Campo | Descrição |
+| --- | --- |
+| Nome do Modelo |  |
+| Versão |  |
+| Visão Geral/Limitações |  |
+| Criadores/Equipe |  |
+| Data da Última Atualização |  |
+| Tags |  |
+| Licença |  |
+| Origem do Modelo |  |
 
-## Limitations
-Known weaknesses, edge cases, and failure modes.
+---
 
-## References
-Links to papers, datasets, or related documentation.
+## 2. Dados de Treinamento e Fonte
 
+| Campo | Descrição |
+| --- | --- |
+| Dataset(s) Utilizado(s) |  |
+| Pré-condições do Dataset |  |
+| Multimodalidade Suportada |  |
 
+---
 
+## 3. Detalhes Técnicos e Arquitetura
+
+| Campo | Descrição |
+| --- | --- |
+| Arquitetura do Modelo |  |
+| Procedimento de Treinamento |  |
+| Nível de Automação |  |
+
+---
+
+## 4. Métricas de Desempenho e Avaliação
+
+| Campo | Descrição |
+| --- | --- |
+| Métricas de Desempenho |  |
+| Benchmark Scores |  |
+| Limitações Conhecidas |  |
+| Métricas de Robustez e Privacidade |  |
+
+---
+
+## 5. Considerações Éticas, Riscos e Mitigações
+
+| Campo | Descrição |
+| --- | --- |
+| Considerações Éticas |  |
+| Riscos Ambientais, Sociais e de Conformidade (ESG) |  |
+| Ações de Mitigação |  |
+| Pós-condições |  |
+
+---
+
+## 6. Orientações de Uso e Implantação
+
+| Campo | Descrição |
+| --- | --- |
+| Diretrizes de Uso Responsável |  |
+| Contexto Operacional/Ambiental |  |
+| Instruções Acionáveis |  |
+| Mecanismos de Feedback |  |
+
+---
+
+## Anexo Técnico – Campos Não Mapeados
+
+> Esta seção contém campos presentes no material de origem que não possuem correspondência
+> semântica direta com o schema canônico Dataprev. Nenhuma informação foi descartada.
 
